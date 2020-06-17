@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% load static %}
+        <link rel="stylesheet" href='{% static "css\style.css" %}'>
+        <title>{% block title %}Gomez's List{% endblock%}</title>
+    </head>
+
+    <body>
+        <div id="header">
+            <form action="{% url "search" %}" method="post">
+            {% csrf_token %}
+                <input type="search" name="search_query" maxlength=500 placeholder="What are you looking for?">
+                <input type="submit" value="Find it">
+            </form>
+        </div>
+        
+        <div id="content">
+            {% block content %}{% endblock %}
+        </div>
+        <footer>Made by <a href="https://github.com/sandlerj">sandlerj</a> with &#9749 and &#128148 and Django.</footer>
+    </body>
+</html>
