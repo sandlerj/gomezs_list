@@ -8,8 +8,7 @@
 
     <body>
         <div id="header">
-            <form action="{% url "search" %}" method="post">
-            {% csrf_token %}
+            <form action="{% url "search" %}" method="get">
                 <input type="search" name="search_query" maxlength=500 placeholder="What are you looking for?">
                 <input type="submit" value="Find it">
             </form>
