@@ -8,10 +8,29 @@
 
     <body>
         <div id="header">
-            <form action="{% url "search" %}" method="get">
-                <input type="search" name="search_query" maxlength=500 placeholder="What are you looking for?">
-                <input type="submit" value="Find it">
-            </form>
+            <div id="search_div">
+                <form action="{% url "search" %}" method="get" id="search_form">
+                    <input type="search" name="search_query" maxlength=500 placeholder="What are you looking for?">
+                    <input id="cat" type="hidden" name="category" value="sss">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Category
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="javascript:document.querySelector('input.cat').setAttribute('value', 'sss');">For Sale</a>
+                            <a class="dropdown-item" href="javascript:document.querySelector('input.cat').setAttribute('value', 'ccc');">Community</a>
+                            <a class="dropdown-item" href="javascript:document.querySelector('input.cat').setAttribute('value', 'eee');">Events</a>
+                            <a class="dropdown-item" href="javascript:document.querySelector('input.cat').setAttribute('value', 'ggg');">Gigs</a>
+                            <a class="dropdown-item" href="javascript:document.querySelector('input.cat').setAttribute('value', 'hhh');">Housing</a>
+                            <a class="dropdown-item" href="javascript:document.querySelector('input.cat').setAttribute('value', 'jjj');">Jobs</a>
+                            <a class="dropdown-item" href="javascript:document.querySelector('input.cat').setAttribute('value', 'rrr');">Resumes</a>
+                            <a class="dropdown-item" href="javascript:document.querySelector('input.cat').setAttribute('value', 'bbb');">Services</a>
+                        </div>
+                    </div>
+                    <input type="text" name="location" placeholder="Where?">
+                </form>
+                <button type="submit" form="search_form">Find it!</form>
+            </div>
         </div>
         
         <div id="content">

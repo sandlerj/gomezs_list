@@ -9,9 +9,9 @@ from .webScraper import scrapeCraigsList
 def home(request):
     return render(request, "base.html")
 
-def search(request):
-    search_query = request.POST["search_query"]
-    return HttpResponse(content=search_query)
+# def search(request):
+#     search_query = request.POST["search_query"]
+#     return HttpResponse(content=search_query)
 
 '''
  Set up list view model which takes query, stores it, and then passes
@@ -23,7 +23,17 @@ def search(request):
 class SearchView(generic.ListView):
     template_name="search_scrape_app/results.html"
      
-    def get(self, request):
-        city = "pittsburgh"
-        context_dict = scrapeCraigsList(request.GET["search_query"], city)
-        return render(request, template_name, context=context_dict)
+    def get_queryset(self, request):
+        # where = self.request.GET["location"]
+        where = "pittsburgh"
+        result_list = scrapeCraigsList(self.request.GET["search_query"],
+                                        where, self.request.GET["category"])
+        return result_list
+    
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["search_query"] =self.request.GET["search_query"]
+        context["category"] = self.request.GET["category"]
+        context["location"] = self.request.GET["location"]
+        return context
+    
