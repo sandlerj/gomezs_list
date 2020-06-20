@@ -1,5 +1,7 @@
 import requests_html import HTMLSession
 from bs4 import BeautifulSoup
+import os
+GOOGLE_SECRET = os.getenv("GOOGLE_SECRET")
 
 '''
 This is going to need a lot of testing you twit
