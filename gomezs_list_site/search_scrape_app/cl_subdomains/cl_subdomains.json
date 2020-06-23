@@ -1,273 +1,273 @@
 {
     "US": {
         "Alabama": {
-            "auburn": "https://auburn.craigslist.org/",
-            "birmingham": "https://bham.craigslist.org/",
-            "dothan": "https://dothan.craigslist.org/",
-            "florence / muscle shoals": "https://shoals.craigslist.org/",
-            "gadsden-anniston": "https://gadsden.craigslist.org/",
-            "huntsville / decatur": "https://huntsville.craigslist.org/",
-            "mobile": "https://mobile.craigslist.org/",
-            "montgomery": "https://montgomery.craigslist.org/",
-            "tuscaloosa": "https://tuscaloosa.craigslist.org/"
+            "Auburn": "https://auburn.craigslist.org/",
+            "Birmingham": "https://bham.craigslist.org/",
+            "Dothan": "https://dothan.craigslist.org/",
+            "Florence": "https://shoals.craigslist.org/",
+            "Gadsden-Anniston": "https://gadsden.craigslist.org/",
+            "Huntsville": "https://huntsville.craigslist.org/",
+            "Mobile": "https://mobile.craigslist.org/",
+            "Montgomery": "https://montgomery.craigslist.org/",
+            "Tuscaloosa": "https://tuscaloosa.craigslist.org/"
         },
         "Alaska": {
-            "anchorage / mat-su": "https://anchorage.craigslist.org/",
-            "fairbanks": "https://fairbanks.craigslist.org/",
-            "kenai peninsula": "https://kenai.craigslist.org/",
-            "southeast alaska": "https://juneau.craigslist.org/"
+            "Anchorage": "https://anchorage.craigslist.org/",
+            "Fairbanks": "https://fairbanks.craigslist.org/",
+            "Kenai Peninsula": "https://kenai.craigslist.org/",
+            "Southeast Alaska": "https://juneau.craigslist.org/"
         },
         "Arizona": {
-            "flagstaff / sedona": "https://flagstaff.craigslist.org/",
-            "mohave county": "https://mohave.craigslist.org/",
-            "phoenix": "https://phoenix.craigslist.org/",
-            "prescott": "https://prescott.craigslist.org/",
-            "show low": "https://showlow.craigslist.org/",
-            "sierra vista": "https://sierravista.craigslist.org/",
-            "tucson": "https://tucson.craigslist.org/",
-            "yuma": "https://yuma.craigslist.org/"
+            "Flagstaff": "https://flagstaff.craigslist.org/",
+            "Mohave County": "https://mohave.craigslist.org/",
+            "Phoenix": "https://phoenix.craigslist.org/",
+            "Prescott": "https://prescott.craigslist.org/",
+            "Show Low": "https://showlow.craigslist.org/",
+            "Sierra Vista": "https://sierravista.craigslist.org/",
+            "Tucson": "https://tucson.craigslist.org/",
+            "Yuma": "https://yuma.craigslist.org/"
         },
         "Arkansas": {
-            "fayetteville ": "https://fayar.craigslist.org/",
-            "fort smith": "https://fortsmith.craigslist.org/",
-            "jonesboro": "https://jonesboro.craigslist.org/",
-            "little rock": "https://littlerock.craigslist.org/",
-            "texarkana": "https://texarkana.craigslist.org/"
+            "Fayetteville ": "https://fayar.craigslist.org/",
+            "Fort Smith": "https://fortsmith.craigslist.org/",
+            "Jonesboro": "https://jonesboro.craigslist.org/",
+            "Little Rock": "https://littlerock.craigslist.org/",
+            "Texarkana": "https://texarkana.craigslist.org/"
         },
         "California": {
-            "bakersfield": "https://bakersfield.craigslist.org/",
-            "chico": "https://chico.craigslist.org/",
-            "fresno / madera": "https://fresno.craigslist.org/",
-            "gold country": "https://goldcountry.craigslist.org/",
-            "hanford-corcoran": "https://hanford.craigslist.org/",
-            "humboldt county": "https://humboldt.craigslist.org/",
-            "imperial county": "https://imperial.craigslist.org/",
-            "inland empire": "https://inlandempire.craigslist.org/",
-            "los angeles": "https://losangeles.craigslist.org/",
-            "mendocino county": "https://mendocino.craigslist.org/",
-            "merced": "https://merced.craigslist.org/",
-            "modesto": "https://modesto.craigslist.org/",
-            "monterey bay": "https://monterey.craigslist.org/",
-            "orange county": "https://orangecounty.craigslist.org/",
-            "palm springs": "https://palmsprings.craigslist.org/",
-            "redding": "https://redding.craigslist.org/",
-            "sacramento": "https://sacramento.craigslist.org/",
-            "san diego": "https://sandiego.craigslist.org/",
-            "san francisco bay area": "https://sfbay.craigslist.org/",
-            "san luis obispo": "https://slo.craigslist.org/",
-            "santa barbara": "https://santabarbara.craigslist.org/",
-            "santa maria": "https://santamaria.craigslist.org/",
-            "siskiyou county": "https://siskiyou.craigslist.org/",
-            "stockton": "https://stockton.craigslist.org/",
-            "susanville": "https://susanville.craigslist.org/",
-            "ventura county": "https://ventura.craigslist.org/",
-            "visalia-tulare": "https://visalia.craigslist.org/",
-            "yuba-sutter": "https://yubasutter.craigslist.org/"
+            "Bakersfield": "https://bakersfield.craigslist.org/",
+            "Chico": "https://chico.craigslist.org/",
+            "Fresno": "https://fresno.craigslist.org/",
+            "Gold Country": "https://goldcountry.craigslist.org/",
+            "Hanford-Corcoran": "https://hanford.craigslist.org/",
+            "Humboldt County": "https://humboldt.craigslist.org/",
+            "Imperial County": "https://imperial.craigslist.org/",
+            "Inland Empire": "https://inlandempire.craigslist.org/",
+            "Los Angeles": "https://losangeles.craigslist.org/",
+            "Mendocino County": "https://mendocino.craigslist.org/",
+            "Merced": "https://merced.craigslist.org/",
+            "Modesto": "https://modesto.craigslist.org/",
+            "Monterey Bay": "https://monterey.craigslist.org/",
+            "Orange County": "https://orangecounty.craigslist.org/",
+            "Palm Springs": "https://palmsprings.craigslist.org/",
+            "Redding": "https://redding.craigslist.org/",
+            "Sacramento": "https://sacramento.craigslist.org/",
+            "San Diego": "https://sandiego.craigslist.org/",
+            "San Francisco Bay Area": "https://sfbay.craigslist.org/",
+            "San Luis Obispo": "https://slo.craigslist.org/",
+            "Santa Barbara": "https://santabarbara.craigslist.org/",
+            "Santa Maria": "https://santamaria.craigslist.org/",
+            "Siskiyou County": "https://siskiyou.craigslist.org/",
+            "Stockton": "https://stockton.craigslist.org/",
+            "Susanville": "https://susanville.craigslist.org/",
+            "Ventura County": "https://ventura.craigslist.org/",
+            "Visalia-Tulare": "https://visalia.craigslist.org/",
+            "Yuba-Sutter": "https://yubasutter.craigslist.org/"
         },
         "Colorado": {
-            "boulder": "https://boulder.craigslist.org/",
-            "colorado springs": "https://cosprings.craigslist.org/",
-            "denver": "https://denver.craigslist.org/",
-            "eastern CO": "https://eastco.craigslist.org/",
-            "fort collins / north CO": "https://fortcollins.craigslist.org/",
-            "high rockies": "https://rockies.craigslist.org/",
-            "pueblo": "https://pueblo.craigslist.org/",
-            "western slope": "https://westslope.craigslist.org/"
+            "Boulder": "https://boulder.craigslist.org/",
+            "Colorado Springs": "https://cosprings.craigslist.org/",
+            "Denver": "https://denver.craigslist.org/",
+            "Eastern Co": "https://eastco.craigslist.org/",
+            "Fort Collins": "https://fortcollins.craigslist.org/",
+            "High Rockies": "https://rockies.craigslist.org/",
+            "Pueblo": "https://pueblo.craigslist.org/",
+            "Western Slope": "https://westslope.craigslist.org/"
         },
         "Connecticut": {
-            "eastern CT": "https://newlondon.craigslist.org/",
-            "hartford": "https://hartford.craigslist.org/",
-            "new haven": "https://newhaven.craigslist.org/",
-            "northwest CT": "https://nwct.craigslist.org/"
+            "Eastern Ct": "https://newlondon.craigslist.org/",
+            "Hartford": "https://hartford.craigslist.org/",
+            "New Haven": "https://newhaven.craigslist.org/",
+            "Northwest Ct": "https://nwct.craigslist.org/"
         },
         "Delaware": {
-            "delaware": "https://delaware.craigslist.org/"
+            "Delaware": "https://delaware.craigslist.org/"
         },
         "District of Columbia": {
-            "washington": "https://washingtondc.craigslist.org/"
+            "Washington": "https://washingtondc.craigslist.org/"
         },
         "Florida": {
-            "broward county": "http://miami.craigslist.org/brw/",
-            "daytona beach": "https://daytona.craigslist.org/",
-            "florida keys": "https://keys.craigslist.org/",
-            "fort lauderdale": "https://fortlauderdale.craigslist.org/",
-            "ft myers / SW florida": "https://fortmyers.craigslist.org/",
-            "gainesville": "https://gainesville.craigslist.org/",
-            "heartland florida": "https://cfl.craigslist.org/",
-            "jacksonville": "https://jacksonville.craigslist.org/",
-            "lakeland": "https://lakeland.craigslist.org/",
-            "miami / dade": "http://miami.craigslist.org/mdc/",
-            "north central FL": "https://lakecity.craigslist.org/",
-            "ocala": "https://ocala.craigslist.org/",
-            "okaloosa / walton": "https://okaloosa.craigslist.org/",
-            "orlando": "https://orlando.craigslist.org/",
-            "panama city": "https://panamacity.craigslist.org/",
-            "pensacola": "https://pensacola.craigslist.org/",
-            "sarasota-bradenton": "https://sarasota.craigslist.org/",
-            "south florida": "https://miami.craigslist.org/",
-            "space coast": "https://spacecoast.craigslist.org/",
-            "st augustine": "https://staugustine.craigslist.org/",
-            "tallahassee": "https://tallahassee.craigslist.org/",
-            "tampa bay area": "https://tampa.craigslist.org/",
-            "treasure coast": "https://treasure.craigslist.org/",
-            "palm beach county": "http://miami.craigslist.org/pbc/"
+            "Broward County": "http://miami.craigslist.org/brw/",
+            "Daytona Beach": "https://daytona.craigslist.org/",
+            "Florida Keys": "https://keys.craigslist.org/",
+            "Fort Lauderdale": "https://fortlauderdale.craigslist.org/",
+            "Ft Myers": "https://fortmyers.craigslist.org/",
+            "Gainesville": "https://gainesville.craigslist.org/",
+            "Heartland Florida": "https://cfl.craigslist.org/",
+            "Jacksonville": "https://jacksonville.craigslist.org/",
+            "Lakeland": "https://lakeland.craigslist.org/",
+            "Miami": "http://miami.craigslist.org/mdc/",
+            "North Central Fl": "https://lakecity.craigslist.org/",
+            "Ocala": "https://ocala.craigslist.org/",
+            "Okaloosa": "https://okaloosa.craigslist.org/",
+            "Orlando": "https://orlando.craigslist.org/",
+            "Panama City": "https://panamacity.craigslist.org/",
+            "Pensacola": "https://pensacola.craigslist.org/",
+            "Sarasota-Bradenton": "https://sarasota.craigslist.org/",
+            "South Florida": "https://miami.craigslist.org/",
+            "Space Coast": "https://spacecoast.craigslist.org/",
+            "St Augustine": "https://staugustine.craigslist.org/",
+            "Tallahassee": "https://tallahassee.craigslist.org/",
+            "Tampa Bay Area": "https://tampa.craigslist.org/",
+            "Treasure Coast": "https://treasure.craigslist.org/",
+            "Palm Beach County": "http://miami.craigslist.org/pbc/"
         },
         "Georgia": {
-            "albany ": "https://albanyga.craigslist.org/",
-            "athens": "https://athensga.craigslist.org/",
-            "atlanta": "https://atlanta.craigslist.org/",
-            "augusta": "https://augusta.craigslist.org/",
-            "brunswick": "https://brunswick.craigslist.org/",
-            "columbus ": "https://columbusga.craigslist.org/",
-            "macon / warner robins": "https://macon.craigslist.org/",
-            "northwest GA": "https://nwga.craigslist.org/",
-            "savannah / hinesville": "https://savannah.craigslist.org/",
-            "statesboro": "https://statesboro.craigslist.org/",
-            "valdosta": "https://valdosta.craigslist.org/"
+            "Albany ": "https://albanyga.craigslist.org/",
+            "Athens": "https://athensga.craigslist.org/",
+            "Atlanta": "https://atlanta.craigslist.org/",
+            "Augusta": "https://augusta.craigslist.org/",
+            "Brunswick": "https://brunswick.craigslist.org/",
+            "Columbus ": "https://columbusga.craigslist.org/",
+            "Macon": "https://macon.craigslist.org/",
+            "Northwest Ga": "https://nwga.craigslist.org/",
+            "Savannah": "https://savannah.craigslist.org/",
+            "Statesboro": "https://statesboro.craigslist.org/",
+            "Valdosta": "https://valdosta.craigslist.org/"
         },
         "Hawaii": {
-            "hawaii": "https://honolulu.craigslist.org/"
+            "Hawaii": "https://honolulu.craigslist.org/"
         },
         "Idaho": {
-            "boise": "https://boise.craigslist.org/",
-            "east idaho": "https://eastidaho.craigslist.org/",
-            "lewiston / clarkston": "https://lewiston.craigslist.org/",
-            "twin falls": "https://twinfalls.craigslist.org/"
+            "Boise": "https://boise.craigslist.org/",
+            "East Idaho": "https://eastidaho.craigslist.org/",
+            "Lewiston": "https://lewiston.craigslist.org/",
+            "Twin Falls": "https://twinfalls.craigslist.org/"
         }
     },
     "CA": {
         "Alberta": {
-            "calgary": "https://calgary.craigslist.org/",
-            "edmonton": "https://edmonton.craigslist.org/",
-            "ft mcmurray": "https://ftmcmurray.craigslist.org/",
-            "lethbridge": "https://lethbridge.craigslist.org/",
-            "medicine hat": "https://hat.craigslist.org/",
-            "peace river country": "https://peace.craigslist.org/",
-            "red deer": "https://reddeer.craigslist.org/"
+            "Calgary": "https://calgary.craigslist.org/",
+            "Edmonton": "https://edmonton.craigslist.org/",
+            "Ft Mcmurray": "https://ftmcmurray.craigslist.org/",
+            "Lethbridge": "https://lethbridge.craigslist.org/",
+            "Medicine Hat": "https://hat.craigslist.org/",
+            "Peace River Country": "https://peace.craigslist.org/",
+            "Red Deer": "https://reddeer.craigslist.org/"
         },
         "British Columbia": {
-            "cariboo": "https://cariboo.craigslist.org/",
-            "comox valley": "https://comoxvalley.craigslist.org/",
-            "fraser valley": "https://abbotsford.craigslist.org/",
-            "kamloops": "https://kamloops.craigslist.org/",
-            "kelowna / okanagan": "https://kelowna.craigslist.org/",
-            "kootenays": "https://kootenays.craigslist.org/",
-            "nanaimo": "https://nanaimo.craigslist.org/",
-            "prince george": "https://princegeorge.craigslist.org/",
-            "skeena-bulkley": "https://skeena.craigslist.org/",
-            "sunshine coast": "https://sunshine.craigslist.org/",
-            "vancouver": "https://vancouver.craigslist.org/",
-            "victoria": "https://victoria.craigslist.org/",
-            "whistler": "https://whistler.craigslist.org/"
+            "Cariboo": "https://cariboo.craigslist.org/",
+            "Comox Valley": "https://comoxvalley.craigslist.org/",
+            "Fraser Valley": "https://abbotsford.craigslist.org/",
+            "Kamloops": "https://kamloops.craigslist.org/",
+            "Kelowna": "https://kelowna.craigslist.org/",
+            "Kootenays": "https://kootenays.craigslist.org/",
+            "Nanaimo": "https://nanaimo.craigslist.org/",
+            "Prince George": "https://princegeorge.craigslist.org/",
+            "Skeena-Bulkley": "https://skeena.craigslist.org/",
+            "Sunshine Coast": "https://sunshine.craigslist.org/",
+            "Vancouver": "https://vancouver.craigslist.org/",
+            "Victoria": "https://victoria.craigslist.org/",
+            "Whistler": "https://whistler.craigslist.org/"
         }
     },
     "EU": {
         "Austria": {
-            "vienna": "https://vienna.craigslist.at/"
+            "Vienna": "https://vienna.craigslist.at/"
         },
         "Belgium": {
-            "belgium": "https://brussels.craigslist.org/"
+            "Belgium": "https://brussels.craigslist.org/"
         },
         "Bulgaria": {
-            "bulgaria": "https://bulgaria.craigslist.org/"
+            "Bulgaria": "https://bulgaria.craigslist.org/"
         },
         "Croatia": {
-            "croatia": "https://zagreb.craigslist.org/"
+            "Croatia": "https://zagreb.craigslist.org/"
         },
         "Czech Republic": {
-            "prague": "https://prague.craigslist.cz/"
+            "Prague": "https://prague.craigslist.cz/"
         },
         "Denmark": {
-            "copenhagen": "https://copenhagen.craigslist.org/"
+            "Copenhagen": "https://copenhagen.craigslist.org/"
         },
         "Finland": {
-            "finland": "https://helsinki.craigslist.fi/"
+            "Finland": "https://helsinki.craigslist.fi/"
         },
         "France": {
-            "bordeaux": "https://bordeaux.craigslist.org/",
-            "brittany": "https://rennes.craigslist.org/",
-            "grenoble": "https://grenoble.craigslist.org/",
-            "lille": "https://lille.craigslist.org/",
-            "loire valley": "https://loire.craigslist.org/",
-            "lyon": "https://lyon.craigslist.org/",
-            "marseille": "https://marseilles.craigslist.org/",
-            "montpellier": "https://montpellier.craigslist.org/",
-            "nice / cote d'azur": "https://cotedazur.craigslist.org/",
-            "normandy": "https://rouen.craigslist.org/",
-            "paris": "https://paris.craigslist.org/",
-            "strasbourg": "https://strasbourg.craigslist.org/",
-            "toulouse": "https://toulouse.craigslist.org/"
+            "Bordeaux": "https://bordeaux.craigslist.org/",
+            "Brittany": "https://rennes.craigslist.org/",
+            "Grenoble": "https://grenoble.craigslist.org/",
+            "Lille": "https://lille.craigslist.org/",
+            "Loire Valley": "https://loire.craigslist.org/",
+            "Lyon": "https://lyon.craigslist.org/",
+            "Marseille": "https://marseilles.craigslist.org/",
+            "Montpellier": "https://montpellier.craigslist.org/",
+            "Nice": "https://cotedazur.craigslist.org/",
+            "Normandy": "https://rouen.craigslist.org/",
+            "Paris": "https://paris.craigslist.org/",
+            "Strasbourg": "https://strasbourg.craigslist.org/",
+            "Toulouse": "https://toulouse.craigslist.org/"
         }
     },
     "ASIA": {
         "Bangladesh": {
-            "bangladesh": "https://bangladesh.craigslist.org/"
+            "Bangladesh": "https://bangladesh.craigslist.org/"
         },
         "China": {
-            "beijing": "https://beijing.craigslist.com.cn/",
-            "chengdu": "https://chengdu.craigslist.com.cn/",
-            "chongqing": "https://chongqing.craigslist.com.cn/",
-            "dalian": "https://dalian.craigslist.com.cn/",
-            "guangzhou": "https://guangzhou.craigslist.com.cn/",
-            "hangzhou": "https://hangzhou.craigslist.com.cn/",
-            "nanjing": "https://nanjing.craigslist.com.cn/",
-            "shanghai": "https://shanghai.craigslist.com.cn/",
-            "shenyang": "https://shenyang.craigslist.com.cn/",
-            "shenzhen": "https://shenzhen.craigslist.com.cn/",
-            "wuhan": "https://wuhan.craigslist.com.cn/",
-            "xi'an": "https://xian.craigslist.com.cn/"
+            "Beijing": "https://beijing.craigslist.com.cn/",
+            "Chengdu": "https://chengdu.craigslist.com.cn/",
+            "Chongqing": "https://chongqing.craigslist.com.cn/",
+            "Dalian": "https://dalian.craigslist.com.cn/",
+            "Guangzhou": "https://guangzhou.craigslist.com.cn/",
+            "Hangzhou": "https://hangzhou.craigslist.com.cn/",
+            "Nanjing": "https://nanjing.craigslist.com.cn/",
+            "Shanghai": "https://shanghai.craigslist.com.cn/",
+            "Shenyang": "https://shenyang.craigslist.com.cn/",
+            "Shenzhen": "https://shenzhen.craigslist.com.cn/",
+            "Wuhan": "https://wuhan.craigslist.com.cn/",
+            "Xi'An": "https://xian.craigslist.com.cn/"
         },
         "Guam / Micronesia": {
-            "guam-micronesia": "https://micronesia.craigslist.org/"
+            "Guam-Micronesia": "https://micronesia.craigslist.org/"
         },
         "Hong Kong": {
-            "hong kong": "https://hongkong.craigslist.hk/"
+            "Hong Kong": "https://hongkong.craigslist.hk/"
         }
     },
     "OCEANIA": {
         "Australia": {
-            "adelaide": "https://adelaide.craigslist.com.au/",
-            "brisbane": "https://brisbane.craigslist.com.au/",
-            "cairns": "https://cairns.craigslist.com.au/",
-            "canberra": "https://canberra.craigslist.com.au/",
-            "darwin": "https://darwin.craigslist.com.au/",
-            "gold coast": "https://goldcoast.craigslist.com.au/",
-            "melbourne": "https://melbourne.craigslist.com.au/",
-            "newcastle, NSW": "https://ntl.craigslist.com.au/",
-            "perth": "https://perth.craigslist.com.au/",
-            "sydney": "https://sydney.craigslist.com.au/",
-            "tasmania": "https://hobart.craigslist.com.au/",
-            "wollongong": "https://wollongong.craigslist.com.au/"
+            "Adelaide": "https://adelaide.craigslist.com.au/",
+            "Brisbane": "https://brisbane.craigslist.com.au/",
+            "Cairns": "https://cairns.craigslist.com.au/",
+            "Canberra": "https://canberra.craigslist.com.au/",
+            "Darwin": "https://darwin.craigslist.com.au/",
+            "Gold Coast": "https://goldcoast.craigslist.com.au/",
+            "Melbourne": "https://melbourne.craigslist.com.au/",
+            "Newcastle, Nsw": "https://ntl.craigslist.com.au/",
+            "Perth": "https://perth.craigslist.com.au/",
+            "Sydney": "https://sydney.craigslist.com.au/",
+            "Tasmania": "https://hobart.craigslist.com.au/",
+            "Wollongong": "https://wollongong.craigslist.com.au/"
         }
     },
     "LATAM": {
         "Argentina": {
-            "buenos aires": "https://buenosaires.craigslist.org/"
+            "Buenos Aires": "https://buenosaires.craigslist.org/"
         },
         "Bolivia": {
-            "bolivia": "https://lapaz.craigslist.org/"
+            "Bolivia": "https://lapaz.craigslist.org/"
         },
         "Brazil": {
-            "belo horizonte": "https://belohorizonte.craigslist.org/",
-            "brasilia": "https://brasilia.craigslist.org/",
-            "curitiba": "https://curitiba.craigslist.org/",
-            "fortaleza": "https://fortaleza.craigslist.org/",
-            "porto alegre": "https://portoalegre.craigslist.org/",
-            "recife": "https://recife.craigslist.org/",
-            "rio de janeiro": "https://rio.craigslist.org/",
-            "salvador, bahia": "https://salvador.craigslist.org/",
-            "sao paulo": "https://saopaulo.craigslist.org/"
+            "Belo Horizonte": "https://belohorizonte.craigslist.org/",
+            "Brasilia": "https://brasilia.craigslist.org/",
+            "Curitiba": "https://curitiba.craigslist.org/",
+            "Fortaleza": "https://fortaleza.craigslist.org/",
+            "Porto Alegre": "https://portoalegre.craigslist.org/",
+            "Recife": "https://recife.craigslist.org/",
+            "Rio De Janeiro": "https://rio.craigslist.org/",
+            "Salvador, Bahia": "https://salvador.craigslist.org/",
+            "Sao Paulo": "https://saopaulo.craigslist.org/"
         },
         "Caribbean Islands": {
-            "caribbean islands": "https://caribbean.craigslist.org/"
+            "Caribbean Islands": "https://caribbean.craigslist.org/"
         }
     },
     "AF": {
         "Egypt": {
-            "egypt": "https://cairo.craigslist.org/"
+            "Egypt": "https://cairo.craigslist.org/"
         },
         "Ethiopia": {
-            "ethiopia": "https://addisababa.craigslist.org/"
+            "Ethiopia": "https://addisababa.craigslist.org/"
         }
     }
 }

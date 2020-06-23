@@ -39,7 +39,10 @@ def scrapeSubdomains():
             tmpStateDict = tmpCountryDict[stateName.get_text()] = dict()
             cities = stateUl.select("li a")
             for city in cities:
-                tmpStateDict[city.get_text()] = city["href"]
+                cityKey = city.get_text().title()
+                if "/" in cityKey:
+                    cityKey = cityKey[:cityKey.find(" /")]
+                tmpStateDict[cityKey] = city["href"]
 
     return subdomainDict
 
