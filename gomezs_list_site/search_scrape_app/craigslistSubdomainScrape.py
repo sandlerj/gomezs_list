@@ -21,15 +21,19 @@ def scrapeSubdomains():
     soup = BeautifulSoup(page.content, "html.parser")
     h1Tags = soup.select("h1")
     subdomainDict = dict()
-    stateDivs = soup.select("div.colmask > div.box.box_1:first-child")
-
-    assert(len(h1Tags) == len(stateDivs))
-
-    for i in range(len(h1Tags)):
-        h1Tag = h1Tags[i]
+    stateDivs = soup.select("div.colmask div.box")
+    h1Iter = iter(h1Tags)
+    for i in range(len(stateDivs)):
         stateDiv = stateDivs[i]
+        if "box_1" in stateDiv["class"]:
+            h1Tag = next(h1Iter)
+        
         country = h1Tag.select("a")[0]['name']
-        tmpCountryDict = subdomainDict[country] = dict()
+        if subdomainDict.get(country) == None:
+            tmpCountryDict = subdomainDict[country] = dict()
+        else:
+            tmpCountryDict = subdomainDict[country]
+
         h4Tags = stateDiv.select("h4")
         stateUls = stateDiv.select("h4 + ul")
         assert(len(h4Tags) == len(stateUls))
@@ -45,6 +49,8 @@ def scrapeSubdomains():
                 tmpStateDict[cityKey] = city["href"]
 
     return subdomainDict
+
+
 
 if __name__ == "__main__":
     updateJson()

@@ -1,15 +1,15 @@
 from requests_html import HTMLSession
 import requests
 from bs4 import BeautifulSoup
-import json, math
+import json, math, re
 import os
-
+from django.conf import settings
+GOOGLE_SECRET = settings.GOOGLE_SECRET
+print(GOOGLE_SECRET)
 from cl_subdomains.usStateAbbrev import abbrev_us_state
-GOOGLE_SECRET = os.getenv("GOOGLE_SECRET")
 
-'''
-This is going to need a lot of testing you twit
-'''
+GOOGLE_SECRET = settings.GOOGLE_SECRET
+
 def scrapeCraigsList(search_query, where, cat="sss"):
     """
     Creates an HTMLSession so as to execute a few clicks on
@@ -93,24 +93,37 @@ def getNearestCitySubdomain(location):
     if placesStatus != "OK":
         # Handle errors here
         # What should be returned?
-        pass
+        print("Places API failure")
+        print(json.dumps(placesJson, indent=2))
+        raise Exception
 
     formatted_address = placesJson["candidates"][0]["formatted_address"]
 
+    
     result_array = list(map(lambda s: s.strip(), formatted_address.split(",")))
-    country, province, city = None
+    
+    country = province = city = None
+    
     resultsN = len(result_array)
     if resultsN < 1:
         return None
     country = result_array[-1]
     province = result_array[-2] if resultsN >= 2 else None
+
+    pat = re.compile("[a-z]{0,}[\d]+", re.IGNORECASE)
+    m = pat.search(province)
+    if m != None:
+        province = province[:m.start()].strip()
+
+    #Currently unused but should be used to shortcircuit when possible
     city = result_array[-3] if resultsN >= 3 else None
     if country == ("USA" or "United States"):
         country = "US"
         if len(province) == 2:
             province = abbrev_us_state[province]
-    elif country == "Canada":
+    elif country == "Canada" or country == "CA":
         country = "CA"
+        # This needs to be its own object since I'm adding all of them
         if province == "BC": 
             province = "British Columbia"
         if province == "AB": 
@@ -134,27 +147,31 @@ def getNearestCitySubdomain(location):
         return list(countryNode.values())[0]
 
     provinceNode = countryNode.get(province)
+
     if type(provinceNode) == str:
         return provinceNode # Found a leaf node, can just return here
     if provinceNode == None:
         provinceNode = countryNode
         province = country
-
+    
     #just search it here? Yeah fuck it thats where we're at god damn it
     candidate_list = [] # Only doing this because TECHNICALLY the keys aren't ordered
     for key in provinceNode.keys():
         candidate_list.append(key)
     distMatrixParams = {"origins": location + " " + province,
-                        key:GOOGLE_SECRET}
+                        "key":GOOGLE_SECRET}
     candidateStr = "|".join(map(lambda s: s + " " +province, candidate_list))
     distMatrixParams["destinations"]=candidateStr
     distMatrixURL = "https://maps.googleapis.com/maps/api/distancematrix/json"
     r_dist = requests.get(distMatrixURL, params=distMatrixParams)
     distJson = json.loads(r_dist.content)
+
     if distJson["status"] != "OK":
         # handle errors
-        pass
-    candidate_dists = list(map(lambda x: x.get('distance').get('value'),
+        print(json.dumps(distJson, indent=2))
+        raise Exception
+
+    candidate_dists = list(map(distanceMatrixMap,
                             distJson.get("rows")[0].get('elements')))
     i = leastValueIndex(candidate_dists)
      
@@ -176,13 +193,18 @@ def leastValueIndex(A):
     return least_i
 
 def distanceMatrixMap(elem):
-    if elem.status != "OK":
+    if elem["status"] != "OK":
         return math.inf
+
     result = elem.get('distance')
     if result == None:
         return math.inf
-    result = elem.get('value')
+    
+    result = result.get('value')
     if result == None:
         return math.inf
     return result
-    
+
+# if __name__ =="__main__":
+#     import sys
+#     print(getNearestCitySubdomain("pittsburgh"))
