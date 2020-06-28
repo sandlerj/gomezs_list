@@ -4,11 +4,10 @@ from bs4 import BeautifulSoup
 import json, math, re
 import os
 from django.conf import settings
-GOOGLE_SECRET = settings.GOOGLE_SECRET
-print(GOOGLE_SECRET)
-from cl_subdomains.usStateAbbrev import abbrev_us_state
 
 GOOGLE_SECRET = settings.GOOGLE_SECRET
+from search_scrape_app.cl_subdomains.usStateAbbrev import abbrev_us_state
+from search_scrape_app.cl_subdomains.caProvAbbrev import abbrev_ca_prov
 
 def scrapeCraigsList(search_query, where, cat="sss"):
     """
@@ -124,10 +123,8 @@ def getNearestCitySubdomain(location):
     elif country == "Canada" or country == "CA":
         country = "CA"
         # This needs to be its own object since I'm adding all of them
-        if province == "BC": 
-            province = "British Columbia"
-        if province == "AB": 
-            province = "Alberta"
+        if len(province) == 2:
+            province = abbrev_ca_prov[province]
     
     countryNode = None
     if country in ["US", "CA"]:
@@ -178,7 +175,7 @@ def getNearestCitySubdomain(location):
     return provinceNode.get(candidate_list[i])
 
 def loadSubdomainDict():
-    with open("cl_subdomains" + os.sep + "cl_subdomains.json", "r") as f:
+    with open("search_scrape_app"+os.sep+"cl_subdomains" + os.sep + "cl_subdomains.json", "r") as f:
         jsontxt = f.read()
     subdomain_dict = json.loads(jsontxt)
     return subdomain_dict
@@ -205,6 +202,3 @@ def distanceMatrixMap(elem):
         return math.inf
     return result
 
-# if __name__ =="__main__":
-#     import sys
-#     print(getNearestCitySubdomain("pittsburgh"))
